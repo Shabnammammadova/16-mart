@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{background-color:gainsboro ;}
+    h3{background-color: white;color:brown;
+        text-align: right;
+        height: 1cm;}
+   </style>
+<body>
+    <h3><u>Student Registaration Form</u></h3>
+<form>
+   
+    <label for="fname"> First Name:</label>
+    <input  type="text" id="fname" placeholder="Enter your first name">
+<br>
+<br>
+<label for="lsname">Last Name:</label>
+<input type="text" id="lsname" placeholder="Enter your last name">
+<br>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="it should contain @,-">
+<br>
+<br>
+<label for="mobile">Mobile:</label>
+<input type="text" id="mobile" placeholder="only 10 digits are allowed">
+<br>
+<br>
+<label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male">Male
+<input type="radio" id="female" name="gender" value="female">Female
+<br>
+<br>
+<label for="date of birth"> Date Of Birth:</label>
+<input type="date" id="date of birth">
+<br>
+<br>
+<label for="address">Address:</label>
+<textarea name="Address" id="address" rows="10" cols="100"></textarea>
+<br>
+<br>
+<label for="city">City:</label>
+<input type="text" id="city">
+<br>
+<br>
+<label for="pin">Area PIN:</label>
+<input type="text" id="pin">
+<br>
+<br>
+<label for="state">State:</label>
+<input type="text" id="state">
+<br>
+<br>
+<label for="">Qualification:</label>
+<select name="Qualification" id="qualification">
+<option value="">Select Qualification:</option>
+<option value="">Computer Science</option>
+<option value="">Information Tecnology</option>
+<option value=""> Computer Architecture</option>
+<option value="">Tele Communication</option>
+</select>
+<br>
+<br>
+<label for="specialization">Specialization:</label>
+<input type="checkbox" id="cs"  value="Computer Science">Computer Science<br/>
+<input type="checkbox" id="it"  value="Information Technology">Information Technology<br/>
+<input type="checkbox" id="ca"  value="Computer Architecture">Computer Architecture<br/>
+<input type="checkbox" id="tc" value="Tele Communication">Tele Communication<br/>
+<br>
+
+<label for="pword">Password:</label>
+
+<input type="password" id="pword" maxlength="10">
+<br>
+<br>
+<button type="submit" style="color: white;background-color: green; height: 50px;width:100px;">Registered</button>
+
+</form>
+</body>
+</html>
